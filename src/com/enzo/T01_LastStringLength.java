@@ -2,14 +2,15 @@ package com.enzo;
 
 import java.util.Scanner;
 
+/**
+ * 计算字符串最后一个单词的长度，单词以空格隔开。
+ */
 public class T01_LastStringLength {
+
     public static void main(String[] args) {
         lastStringLength();
     }
 
-    /**
-     * 计算字符串最后一个单词的长度，单词以空格隔开。
-     */
     private static void lastStringLength() {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();

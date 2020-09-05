@@ -2,15 +2,15 @@ package com.enzo;
 
 import java.util.Scanner;
 
+/**
+ * 字符逆序
+ */
 public class T03_ReverseOrder {
 
     public static void main(String[] args) {
         reverseOrder();
     }
 
-    /**
-     * 字符逆序
-     */
     private static void reverseOrder() {
         String str = "";
         do {

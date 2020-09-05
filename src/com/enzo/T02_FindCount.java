@@ -2,16 +2,16 @@ package com.enzo;
 
 import java.util.Scanner;
 
+/**
+ * 第一行输入一个有字母和数字以及空格组成的字符串，第二行输入一个字符。
+ * 输出输入字符串中含有该字符的个数。
+ */
 public class T02_FindCount {
 
     public static void main(String[] args) {
         findCount();
     }
 
-    /**
-     * 第一行输入一个有字母和数字以及空格组成的字符串，第二行输入一个字符。
-     * 输出输入字符串中含有该字符的个数。
-     */
     private static void findCount() {
         Scanner input = new Scanner(System.in);
         // 输入字符串：包含空格、数字、字母
